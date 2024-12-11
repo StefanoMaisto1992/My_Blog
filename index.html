@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stefano Maisto - iOS Developer & Web Specialist</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨🏽‍💻</text></svg>">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨🏽‍💻</text></svg>">
     <script defer src="main.js"></script>
 </head>
+
 <body class="bg-gray-50 text-gray-800 font-sans">
     <!-- Header Section -->
-    <header class="w-full bg-white shadow-md fixed top-0 z-10 fade-in">
+    <header class="w-full bg-white shadow-md fixed top-0 left-0 right-0 z-10 fade-in">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
             <h1 class="text-xl font-bold text-gray-900">🚀 Stefano Maisto</h1>
-            <nav class="space-x-4">
+
+            <!-- Navigation Links -->
+            <nav class="hidden lg:flex space-x-4">
                 <a href="#profile" class="text-gray-600 hover:text-gray-900">Profile</a>
                 <a href="#experience" class="text-gray-600 hover:text-gray-900">Experience</a>
                 <a href="#skills" class="text-gray-600 hover:text-gray-900">Skills</a>
@@ -23,6 +28,7 @@
             </nav>
         </div>
     </header>
+    </header>
 
     <!-- Hero Section -->
     <section id="hero" class="bg-gradient-to-br from-blue-500 to-green-500 h-screen flex items-center justify-center">
@@ -30,7 +36,9 @@
             <img src="Assets/Stefano Maisto.png" alt="Stefano Maisto Logo" class="mx-auto mb-6 w-48 h-48 rounded-md">
             <h2 class="text-4xl md:text-6xl font-extrabold">🚀 Experienced iOS Developer</h2>
             <p class="mt-4 text-lg md:text-xl">Specializing in automotive and transportation applications. 🌍</p>
-            <a href="#profile" class="inline-block mt-6 px-6 py-3 bg-white text-blue-500 font-semibold rounded-lg shadow-md hover:bg-gray-100">Learn More</a>
+            <a href="#profile"
+                class="inline-block mt-6 px-6 py-3 bg-white text-blue-500 font-semibold rounded-lg shadow-md hover:bg-gray-100">Learn
+                More</a>
         </div>
     </section>
 
@@ -39,7 +47,10 @@
         <div class="container mx-auto px-6">
             <h3 class="text-3xl font-bold text-gray-900 mb-4">About Me 🌟</h3>
             <p class="text-lg text-gray-700 leading-relaxed">
-                I am an experienced iOS Developer with a strong background in developing native applications for the automotive and transportation sectors. 🚗 Over the years, I have successfully maintained and enhanced iOS applications, ensuring optimal performance and scalability. My expertise lies in leveraging Clean Architecture, Dependency Injection, and advanced design patterns to deliver cutting-edge solutions. 📱
+                I am an experienced iOS Developer with a strong background in developing native applications for the
+                automotive and transportation sectors. 🚗 Over the years, I have successfully maintained and enhanced
+                iOS applications, ensuring optimal performance and scalability. My expertise lies in leveraging Clean
+                Architecture, Dependency Injection, and advanced design patterns to deliver cutting-edge solutions. 📱
             </p>
         </div>
     </section>
@@ -60,8 +71,10 @@
                             <ul class="list-disc list-inside ml-4">
                                 <li>GMA Global Mobile Application for Stellantis Group in Turin.</li>
                                 <li>Fiat Link & Drive: Base app for functionalities of the new 500e. ⚡</li>
-                                <li>Track App: Collected real-time performance data using sensors like accelerometer, GPS, and gyroscope. 📊</li>
-                                <li>SPACE APP: Integrated FCA and PSA vehicle logic into a single application, enhancing scalability with Clean Architecture and Dependency Injection. 🔧</li>
+                                <li>Track App: Collected real-time performance data using sensors like accelerometer,
+                                    GPS, and gyroscope. 📊</li>
+                                <li>SPACE APP: Integrated FCA and PSA vehicle logic into a single application, enhancing
+                                    scalability with Clean Architecture and Dependency Injection. 🔧</li>
                             </ul>
                         </li>
                     </ul>
@@ -72,7 +85,8 @@
                     <ul class="list-disc list-inside mt-2 text-gray-700">
                         <li>Contributed to the development of the "Trenitalia" iOS application. 🚆</li>
                         <li>Developed native iOS applications using Xcode and Swift. 🍎</li>
-                        <li>Used third-party libraries like Alamofire for network calls and RxCocoa/RxSwift for asynchronous data processes. 🔄</li>
+                        <li>Used third-party libraries like Alamofire for network calls and RxCocoa/RxSwift for
+                            asynchronous data processes. 🔄</li>
                         <li>Followed MVC and MVVM design patterns and integrated REST resources. 🌐</li>
                     </ul>
                 </div>
@@ -105,7 +119,8 @@
             </p>
             <ul class="list-disc list-inside text-gray-700 leading-relaxed mt-4">
                 <li>🎮 Passionate about PC gaming and exploring the latest in graphics card technology.</li>
-                <li>📚 Avid reader of DC and Marvel comics, with a particular admiration for Batman, the Dark Knight. 🦇</li>
+                <li>📚 Avid reader of DC and Marvel comics, with a particular admiration for Batman, the Dark Knight. 🦇
+                </li>
                 <li>🎲 Enjoy playing action RPGs, especially Soulslike games that challenge my strategic skills.</li>
                 <li>🍕 Pizza enthusiast who loves enjoying a slice by the sea or during mountain hikes. 🌊🏔️</li>
                 <li>🚶‍♂️ Walking and exploring new trails bring me peace and inspiration.</li>
@@ -123,15 +138,20 @@
                 Interested in working together? Feel free to reach out. 🤝
             </p>
             <form action="#" method="post" class="grid grid-cols-1 md:grid-cols-2 gap-6" onsubmit="sendMail(event)">
-                <input type="text" id="nameField" placeholder="Your Name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500">
-                <input type="email" id="emailField" placeholder="Your Email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500">
-                <textarea  id="messageField" placeholder="Your Message" rows="4" class="w-full col-span-2 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"></textarea>
-                <button type="submit" class="w-full col-span-2 px-6 py-3 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-600">Send Message 🚀</button>
+                <input type="text" id="nameField" placeholder="Your Name"
+                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500">
+                <input type="email" id="emailField" placeholder="Your Email"
+                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500">
+                <textarea id="messageField" placeholder="Your Message" rows="4"
+                    class="w-full col-span-2 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"></textarea>
+                <button type="submit"
+                    class="w-full col-span-2 px-6 py-3 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-600">Send
+                    Message 🚀</button>
             </form>
         </div>
         <div class="parent-container" id="animation-container">
             <div id="Mario-bross-animation">
-                <div id="loader" class="loader" ></div>
+                <div id="loader" class="loader"></div>
             </div>
         </div>
     </section>
@@ -143,4 +163,5 @@
         </div>
     </footer>
 </body>
+
 </html>
